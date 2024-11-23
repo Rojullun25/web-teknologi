@@ -14,13 +14,13 @@ export default function SideNav() {
       >
         <div className="w-32 text-white md:w-40">
           {/*<AcmeLogo />*/}
-          <img
-          src="/logo/uia-logo.png"
+          <Image
+          src="/Logo/uia-logo.png"
           width={300}
           height={160}
           className="hidden md:block"
           alt="Banner UIA"
-          />
+        />
         </div>
       </Link>
       <div className="flex grow flex-row justify-between space-x-2 md:flex-col md:space-x-0 md:space-y-2">
